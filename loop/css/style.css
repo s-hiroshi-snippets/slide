@@ -1,0 +1,27 @@
+@charset "utf-8";
+/**
+ * Copyright 2012 Sawai Hiroshi
+ * http://www.info-town.jp
+ *
+ */
+
+#slide_wrapper {
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    width: 280px;
+    height: 75px;
+    margin: 10px auto;
+    border: 5px solid #90D3E5;
+}
+.slide {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.slide li {
+    float: left;
+}
+button {
+    margin-top: 100px;
+}
